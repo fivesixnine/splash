@@ -5,6 +5,8 @@
       <sp-bank-balances />
       <sp-token-send />
       <!-- this line is used by starport scaffolding # 4 -->
+		<sp-type-form path="fivesixnine.splash.splash" type="post" :fields="[ ['creator', 1, 'string'] , ['title', 2, 'string'] , ['body', 3, 'string'] ]" />
+		<sp-type-form path="fivesixnine.splash.ibcchat" type="message" :fields="[ ['creator', 1, 'string'] , ['text', 2, 'string'] ]" />
     </div>
   </div>
 </template>
